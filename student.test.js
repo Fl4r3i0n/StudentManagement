@@ -1,4 +1,4 @@
-const Student = require('./student');
+const { Student } = require('./student');
 describe('Student Class Tests', () => {
     test('Should create a student correctly', () => {
         const student = new Student(
