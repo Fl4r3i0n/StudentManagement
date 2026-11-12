@@ -4,13 +4,15 @@ class Student {
         this.name = name;
         this.course = course;
     }
-    displayDetails() {
-        return `Student ID: ${this.id}, 
-Student Name: ${this.name}, 
-Course: ${this.course}`;
-    }
+
     getStudentName() {
         return this.name;
     }
+
+    displayDetails() {
+        const details = `Student ID: ${this.id}\nStudent Name: ${this.name}\nCourse: ${this.course}`;
+        return details;
+    }
 }
-module.exports = Student; 
+
+module.exports = Student;
